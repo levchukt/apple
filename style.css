@@ -1,0 +1,101 @@
+body, html{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #ccc9dc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+header img{
+    width: 40px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu_item{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.1s all linear;
+}
+
+.menu_item:hover{
+    
+    transform: scale(1.1);
+}
+
+
+.banner{
+    background-image: url(img/banner.jpg);
+    height: 90vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ccc9dc;
+    padding-left: 200px;
+}
+
+.banner_title{
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.banner_text{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner_btn{
+    width: fit-content;
+    background-color: #7523d2;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.bannerIpad{
+    background-image: url(img/anner2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ccc9dc;
+    padding-top: 100px;
+}
+
+.bannerIpad_title{
+    margin: 0;
+    font-size: 32px;
+}
+
+.bannerIpad_text{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bannerIpad_btn{
+    width: fit-content;
+    background-color: #7523d2;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+span{
+    color: aqua;
+}
